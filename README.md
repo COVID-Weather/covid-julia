@@ -1,5 +1,6 @@
 # covid-julia
-Scripts for COVID-19 data analysis and modeling with julia
+
+This repository contains scripts for COVID-19 data analysis and modeling with the [julia programming language](https://julialang.org).
 
 ## Installing julia packages
 
