@@ -16,6 +16,6 @@ Open a terminal and type
 ```
 git clone https://github.com/CSSEGISandData/COVID-19.git
 ```
-to download COVID-19 data compiled by the Johns Hopkins University Center for Systems Science and Engineering into the directory `/COVID-19`.
+to download [COVID-19 data compiled by the Johns Hopkins University Center for Systems Science and Engineering](https://github.com/CSSEGISandData/COVID-19) into the directory `/COVID-19`.
 
 Finally, run `.jl` scripts from the julia REPL.
