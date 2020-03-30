@@ -1,15 +1,20 @@
 # covid-julia
-Scripts for analyzing COVID19 data with julia
+Scripts for COVID-19 data analysis and modeling with julia
 
+## Installing julia packages
 
-Run
+After [cloning this repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and [installing `julia`](https://julialang.org/downloads/), open a terminal and type
 ```julia
-julia --project -e 'import Pkg; Pkg.instantiate();'
+> julia --project -e 'import Pkg; Pkg.instantiate();'
 ```
-to install all dependencies. Then, run
+to install the julia packages used by scripts in this repository. 
+
+## Downloading 
+
+Open a terminal and type
 ```
-git clone https://github.com/CSSEGISandData/COVID-19.git
+> git clone https://github.com/CSSEGISandData/COVID-19.git
 ```
-to get the JHU data.
+to download COVID-19 data compiled by the Johns Hopkins University Center for Systems Science and Engineering into the directory `/COVID-19`.
 
 Finally, run `.jl` scripts from the julia REPL.
