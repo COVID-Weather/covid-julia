@@ -1,2 +1,6 @@
 COVID-19
 **/*.DS_store
+*.gif
+*.png
+*.pdf
+*.jld2
