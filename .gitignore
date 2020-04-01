@@ -4,3 +4,5 @@ COVID-19
 *.png
 *.pdf
 *.jld2
+*.swp
+*.ipynb_checkpoints

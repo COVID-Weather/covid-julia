@@ -93,9 +93,9 @@ version = "2.2.0"
 
 [[CompilerSupportLibraries_jll]]
 deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "ff8101d6736414bc93c0f8df77b1e4095ca988c3"
+git-tree-sha1 = "7c4f882c41faa72118841185afc58a2eb00ef612"
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "0.3.2+0"
+version = "0.3.3+0"
 
 [[Conda]]
 deps = ["JSON", "VersionParsing"]
@@ -108,6 +108,11 @@ deps = ["StaticArrays"]
 git-tree-sha1 = "6d56f927b33d3820561b8f89d7de311718683846"
 uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
 version = "0.5.2"
+
+[[Crayons]]
+git-tree-sha1 = "cb7a62895da739fe5bb43f1a26d4292baf4b3dc0"
+uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+version = "4.0.1"
 
 [[DBInterface]]
 git-tree-sha1 = "8687a1cc640f088ea2b9c4573b16739ba3917175"
@@ -590,6 +595,12 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[[UnicodePlots]]
+deps = ["Crayons", "Dates", "SparseArrays", "StatsBase"]
+git-tree-sha1 = "af0c29913f108f649999e74098814c7ef0f644de"
+uuid = "b8865327-cd53-5732-bb35-84acbb429228"
+version = "1.2.0"
 
 [[VersionParsing]]
 git-tree-sha1 = "80229be1f670524750d905f8fc8148e5a8c4537f"
